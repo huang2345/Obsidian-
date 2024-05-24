@@ -1,0 +1,4 @@
+浏览器为每个对象定义了style对象，通过该对象可以设置元素的样式
+
+style对象实现了DOM STYLE标准中的CSSStyleDeclaration接口，
+使用的书籍示范了backgroundColor,display,background,border,zIndex,width,height,position,left,top

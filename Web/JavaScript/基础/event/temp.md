@@ -1,0 +1,2 @@
+事件指派实质上是创建并初始化一个空的、但事件实现的接口与事件类型和要触发的元素的事件类型相同的事件对象，以该对象为dispatchEvent()方法的参数实现手动触发事件
+另外，具体触发HTML元素的哪一个事件与Event.initEvent(eventTypeArg,canBubbleArg,cancelableArg)的后两个参数无关

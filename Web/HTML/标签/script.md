@@ -1,0 +1,1 @@
+- defer：告诉浏览器在解析完成HTML后再加载Javascript

@@ -1,0 +1,2 @@
+- sup：上标，如 x<sup>2</sup>
+- sub：下标，如 H<sub>2</sub>O
