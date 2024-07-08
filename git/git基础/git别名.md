@@ -1,0 +1,1 @@
+可以通过 `git config --global alias.ci commit`创建对commit命令的别名，后面可以用 `git ci` 来提交

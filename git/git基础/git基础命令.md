@@ -52,7 +52,7 @@
 	 - --pretty=oneline 每一行中显示一个提交
 	 - --pretty=format:，允许指定格式
  -  `--graph`会用ASCII字符形式的简单图表显示Git分支和合并历史
-[--pretty=format]("C:\Users\huang\Documents\Obsidian Vault\git\git_log_--pretty=format的常用选项.xlsx")
+[--prett![](git_log_--pretty=format的常用选项.xlsx)y=format]("C:\Users\huang\Documents\Obsidian Vault\git\git_log_--pretty=format的常用选项.xlsx")
 
 ### 限制log的输出范围
  - `--since / --after` 和 `--until / --before`限制事件

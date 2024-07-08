@@ -12,7 +12,7 @@
 3.事件响应函数
 	DOM标准中的事件响应函数也称为事件监听器，EventListener接口定义了事件响应函数的类型，事件被触发时，监听器会获得一个==event==参数，该参数为Event对象，内含事件相关信息
 		
-通过EventTarget.addEventListener(type,listener,useCapture)为元素添加多个事件响应函数
+通过 `EventTarget.addEventListener(type,listener,useCapture)` 为元素添加多个事件响应函数
 	type是监听事件类型，listener是事件响应函数地址，useCapture为true使用捕获事件模型，false使用冒泡事件模型
 
 4.事件指派

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 跳过分支进行变基示意图二.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="23.5073in" height="10.4364in" viewBox="0 0 1692.52 751.421" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st6">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#b7dde8;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st3 {fill:#000000;font-family:宋体;font-size:2.50001em}
+		.st4 {fill:#ffffff}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.2376}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>页-1</title>
+		<g id="shape1-1" transform="translate(0.12,-0.12)">
+			<title>矩形.26</title>
+			<rect x="0" y="0.240013" width="1692.28" height="751.181" class="st1"/>
+		</g>
+		<g id="shape2-3" transform="translate(1.11632,-446.476)">
+			<title>矩形</title>
+			<desc>C1</desc>
+			<rect x="0" y="682.756" width="177.003" height="68.6648" class="st2"/>
+			<text x="73.5" y="726.09" class="st3">C1</text>		</g>
+		<g id="shape3-6" transform="translate(178.119,-480.809)">
+			<title>直线箭头</title>
+			<path d="M118.25 748.22 L118.25 754.62 L124.65 751.42 L118.25 748.22 Z" class="st4"/>
+			<path d="M118.25 748.22 L118.25 754.62 L124.65 751.42 L118.25 748.22" class="st5"/>
+			<path d="M0 751.42 L118.25 751.42" class="st5"/>
+		</g>
+		<g id="shape4-10" transform="translate(302.765,-446.476)">
+			<title>矩形.5</title>
+			<desc>C2</desc>
+			<rect x="0" y="682.756" width="177.003" height="68.6648" class="st2"/>
+			<text x="73.5" y="726.09" class="st3">C2</text>		</g>
+		<g id="shape5-13" transform="translate(479.767,-480.809)">
+			<title>直线箭头.6</title>
+			<path d="M114.77 748.22 L114.77 754.62 L121.16 751.42 L114.77 748.22 Z" class="st4"/>
+			<path d="M114.77 748.22 L114.77 754.62 L121.16 751.42 L114.77 748.22" class="st5"/>
+			<path d="M0 751.42 L114.77 751.42" class="st5"/>
+		</g>
+		<g id="shape6-17" transform="translate(600.932,-446.476)">
+			<title>矩形.7</title>
+			<desc>C3</desc>
+			<rect x="0" y="682.756" width="177.003" height="68.6648" class="st2"/>
+			<text x="73.5" y="726.09" class="st3">C3</text>		</g>
+		<g id="shape7-20" transform="translate(777.934,-480.809)">
+			<title>直线箭头.8</title>
+			<path d="M124.98 748.22 L124.98 754.62 L131.37 751.42 L124.98 748.22 Z" class="st4"/>
+			<path d="M124.98 748.22 L124.98 754.62 L131.37 751.42 L124.98 748.22" class="st5"/>
+			<path d="M0 751.42 L124.98 751.42" class="st5"/>
+		</g>
+		<g id="shape8-24" transform="translate(909.304,-446.476)">
+			<title>矩形.9</title>
+			<desc>C4</desc>
+			<rect x="0" y="682.756" width="177.003" height="68.6648" class="st2"/>
+			<text x="73.5" y="726.09" class="st3">C4</text>		</g>
+		<g id="shape10-27" transform="translate(499.808,-253.38)">
+			<title>矩形.12</title>
+			<desc>C5</desc>
+			<rect x="0" y="682.756" width="177.003" height="68.6648" class="st2"/>
+			<text x="73.5" y="726.09" class="st3">C5</text>		</g>
+		<g id="shape11-30" transform="translate(797.446,-253.38)">
+			<title>矩形.13</title>
+			<desc>C6</desc>
+			<rect x="0" y="682.756" width="177.003" height="68.6648" class="st2"/>
+			<text x="73.5" y="726.09" class="st3">C6</text>		</g>
+		<g id="shape12-33" transform="translate(676.81,-287.712)">
+			<title>直线箭头.15</title>
+			<path d="M114.24 748.22 L114.24 754.62 L120.64 751.42 L114.24 748.22 Z" class="st4"/>
+			<path d="M114.24 748.22 L114.24 754.62 L120.64 751.42 L114.24 748.22" class="st5"/>
+			<path d="M0 751.42 L114.24 751.42" class="st5"/>
+		</g>
+		<g id="shape14-37" transform="translate(1211.86,-445.435)">
+			<title>矩形.17</title>
+			<desc>C7</desc>
+			<rect x="0" y="682.756" width="177.003" height="68.6648" class="st2"/>
+			<text x="73.5" y="726.09" class="st3">C7</text>		</g>
+		<g id="shape15-40" transform="translate(1514.42,-445.435)">
+			<title>矩形.18</title>
+			<desc>C8</desc>
+			<rect x="0" y="682.756" width="177.003" height="68.6648" class="st2"/>
+			<text x="73.5" y="726.09" class="st3">C8</text>		</g>
+		<g id="shape16-43" transform="translate(1388.86,-479.767)">
+			<title>直线箭头.19</title>
+			<path d="M119.16 748.22 L119.16 754.62 L125.56 751.42 L119.16 748.22 Z" class="st4"/>
+			<path d="M119.16 748.22 L119.16 754.62 L125.56 751.42 L119.16 748.22" class="st5"/>
+			<path d="M0 751.42 L119.16 751.42" class="st5"/>
+		</g>
+		<g id="shape17-47" transform="translate(934.767,-623.742)">
+			<title>正方形</title>
+			<desc>master</desc>
+			<rect x="0" y="625.345" width="126.076" height="126.076" class="st2"/>
+			<text x="18.04" y="697.38" class="st3">master</text>		</g>
+		<g id="shape18-50" transform="translate(822.909,-0.12)">
+			<title>正方形.24</title>
+			<desc>server</desc>
+			<rect x="0" y="625.345" width="126.076" height="126.076" class="st2"/>
+			<text x="18.04" y="697.38" class="st3">server</text>		</g>
+		<g id="shape19-53" transform="translate(1539.88,-623.742)">
+			<title>正方形.25</title>
+			<desc>client</desc>
+			<rect x="0" y="625.345" width="126.076" height="126.076" class="st2"/>
+			<text x="18.04" y="697.38" class="st3">client</text>		</g>
+		<g id="shape21-56" transform="translate(1749.23,127.679) rotate(90)">
+			<title>直线箭头.21</title>
+			<path d="M102.21 748.22 L102.21 754.62 L108.6 751.42 L102.21 748.22 Z" class="st4"/>
+			<path d="M102.21 748.22 L102.21 754.62 L108.6 751.42 L102.21 748.22" class="st5"/>
+			<path d="M0 751.42 L102.21 751.42" class="st5"/>
+		</g>
+		<g id="shape22-60" transform="translate(885.947,-0.12)">
+			<title>直线箭头.22</title>
+		</g>
+		<g id="shape23-61" transform="translate(134.526,625.225) rotate(-90)">
+			<title>直线箭头.23</title>
+			<path d="M120.79 748.22 L120.79 754.62 L127.18 751.42 L120.79 748.22 Z" class="st4"/>
+			<path d="M120.79 748.22 L120.79 754.62 L127.18 751.42 L120.79 748.22" class="st5"/>
+			<path d="M0 751.42 L120.79 751.42" class="st5"/>
+		</g>
+		<g id="shape24-65" transform="translate(2354.34,127.679) rotate(90)">
+			<title>直线箭头.24</title>
+			<path d="M103.25 748.22 L103.25 754.62 L109.64 751.42 L103.25 748.22 Z" class="st4"/>
+			<path d="M103.25 748.22 L103.25 754.62 L109.64 751.42 L103.25 748.22" class="st5"/>
+			<path d="M0 751.42 L103.25 751.42" class="st5"/>
+		</g>
+		<g id="shape26-69" transform="translate(792.482,-330.397) rotate(32.2722)">
+			<title>直线箭头.26</title>
+			<path d="M226.65 748.22 L226.65 754.62 L233.04 751.42 L226.65 748.22 Z" class="st4"/>
+			<path d="M226.65 748.22 L226.65 754.62 L233.04 751.42 L226.65 748.22" class="st5"/>
+			<path d="M0 751.42 L226.65 751.42" class="st5"/>
+		</g>
+		<g id="shape27-73" transform="translate(1092.54,-480.783) rotate(0.475274)">
+			<title>直线箭头.27</title>
+			<path d="M119.17 748.22 L119.17 754.62 L125.56 751.42 L119.17 748.22 Z" class="st4"/>
+			<path d="M119.17 748.22 L119.17 754.62 L125.56 751.42 L119.17 748.22" class="st5"/>
+			<path d="M0 751.42 L119.17 751.42" class="st5"/>
+		</g>
+	</g>
+</svg>

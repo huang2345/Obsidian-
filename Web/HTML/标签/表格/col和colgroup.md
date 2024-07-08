@@ -7,8 +7,8 @@
 ```
 <table>
   <colgroup>
-    <col />
-    <col style="background-color: yellow" />
+    <col style="background-color:red" span="1"/>
+    <col style="background-color: yellow" span=""/>
   </colgroup>
   <tr>
     <th>Data 1</th>
