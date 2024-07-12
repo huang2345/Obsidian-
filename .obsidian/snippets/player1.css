@@ -1,0 +1,30 @@
+@charset 'utf-8';
+/* 改变高光的字体颜色 */
+span.cm-highlight
+{
+    background-color: rgba(255,255,255,1) !important;
+    color: red !important;
+}
+/* 改变h1~h6标题和title标题颜色 */
+span.cm-header,div[class^='inline-title']
+{
+    color: lightblue;
+}
+
+/* 段落首行缩进 */
+div.cm-line:not(.HyperMD-header) {
+	text-indent: 2em;
+}
+.markdown-preview-view div p {
+	text-indent: 2em;
+}
+
+/* 给段落下方的无序列表添加缩进 */
+.cm-line:not(.HyperMD-header):not(.HyperMD-list-line) + .HyperMD-list-line[dir='ltr']
+{
+    text-indent: 0.7em !important;
+}
+.cm-line:not(.HyperMD-header):not(.HyperMD-list-line) + .HyperMD-list-line[dir='ltr'] ~ .HyperMD-list-line
+{
+    text-indent: 0.7em !important;
+}

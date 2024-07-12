@@ -1,0 +1,8 @@
+noremap i k
+noremap k j
+noremap j h
+noremap h i
+
+map R :source C:\Users\huang\vimfiles\_vsvimrc<CR>
+map S :w<CR>
+map Q :q<CR>

@@ -1,0 +1,8 @@
+{
+  "defaultIM": "",
+  "obtainCmd": "",
+  "switchCmd": "",
+  "windowsDefaultIM": "2052",
+  "windowsObtainCmd": "D:\\Code\\im-select.exe",
+  "windowsSwitchCmd": "D:\\Code\\im-select.exe locale"
+}

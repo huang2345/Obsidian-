@@ -1,0 +1,8 @@
+{
+  "showLineNumber": true,
+  "promptDelete": true,
+  "vimMode": true,
+  "attachmentFolderPath": "./",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true
+}

@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "baseFontSize": 26,
+  "enabledCssSnippets": [
+    "player1"
+  ],
+  "baseFontSizeAction": true
+}
