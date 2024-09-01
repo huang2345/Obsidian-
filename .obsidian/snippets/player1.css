@@ -6,10 +6,29 @@ span.cm-highlight
     color: red !important;
 }
 /* 改变h1~h6标题和title标题颜色 */
-span.cm-header,div[class^='inline-title']
-{
-    color: lightblue;
+.HyperMD-header{
+    --header-blue-rgb-color: 255
 }
+.HyperMD-header-1,div[class^='inline-title']
+{
+    color: rgb(0,0,255);
+}
+.HyperMD-header-2{
+    color: rgb(225, 138, 252);
+}
+.HyperMD-header-3{
+    color: rgb(122, 19, 122);
+}
+.HyperMD-header-4{
+    color: rgb(7, 101, 255);
+}
+.HyperMD-header-5{
+    color: rgb(43, 168, 140);
+}
+.HyperMD-header-6{
+    color: rgb(70, 132, 100);
+}
+
 
 /* 段落首行缩进 */
 div.cm-line:not(.HyperMD-header) {

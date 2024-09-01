@@ -4,71 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "ff609644a9751408",
+        "id": "614eba9edfc4c816",
         "type": "tabs",
         "children": [
           {
-            "id": "695f487570c97a74",
+            "id": "b8d937d1db5b2b2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/JS类型化数组/视图.md",
+                "file": "Web/web开发工具/webpack/基础知识/代码分离.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "df2705bfce0499b9",
+            "id": "81537236f8b3cd43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/canvas API/变形transformations.md",
+                "file": "Web/JavaScript/canvas API/操作像素.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1c34cc5ea50ad95b",
+            "id": "0cff25bc18ea3dc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/基础/对象/继承.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3e28d1799803ea8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/JavaScript/canvas API/使用图片.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "739539d876ac87d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/JavaScript/canvas API/应用样式和色彩.md",
+                "file": "Web/web开发工具/webpack/基础知识/配置/输出.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/JavaScript/基础/对象/继承.md",
+                "file": "Web/JavaScript/canvas API/操作像素.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/JavaScript/基础/对象/继承.md",
+                "file": "Web/JavaScript/canvas API/操作像素.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/JavaScript/基础/对象/继承.md"
+                "file": "Web/JavaScript/canvas API/操作像素.md"
               }
             }
           }
@@ -196,49 +172,49 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1c34cc5ea50ad95b",
+  "active": "81537236f8b3cd43",
   "lastOpenFiles": [
-    "Web/JavaScript/canvas API/绘制文本.md",
-    "Web/JavaScript/canvas API/优化.md",
+    "Web/JavaScript/canvas API/canvas实现基本动画.md",
     "Web/JavaScript/canvas API/操作像素.md",
     "Web/JavaScript/canvas API/使用图片.md",
-    "Web/JavaScript/canvas API/组合.md",
-    "Web/JavaScript/canvas API/canvas实现基本动画.md",
-    "Web/JavaScript/canvas API/绘制图形.md",
     "Web/JavaScript/canvas API/应用样式和色彩.md",
-    "Web/JavaScript/canvas API/变形transformations.md",
-    "Web/JavaScript/基础/JS内置对象(类)/Date.md",
-    "git/Git服务器/通信协议.md",
-    "git/git基础/git基础命令.md",
-    "git/~$git_log_--pretty=format的常用选项.xlsx",
-    "git/git基础/git_log_--pretty=format的常用选项.md",
-    "git/git_log_--pretty=format的常用选项.mht",
-    "git/git_log_--pretty=format的常用选项.mh_",
-    "git/git_log_--pretty=format的常用选项.htm",
-    "git/git_log_--pretty=format的常用选项.files/tabstrip.htm",
-    "git/git_log_--pretty=format的常用选项.files/stylesheet.css",
-    "git/git_log_--pretty=format的常用选项.files/sheet001.htm",
-    "git/git_log_--pretty=format的常用选项.files/filelist.xml",
-    "git/git_log_--pretty=format的常用选项.files",
-    "git/Git服务器/git_log_--pretty=format的常用选项.xml",
-    "git/git分支/变基.md",
+    "Web/JavaScript/canvas API/绘制图形.md",
+    "Web/JavaScript/基础/DOM/各种属性方法/Node接口.md",
+    "Web/CSS/CSS排版/弹性盒子.md",
+    "Web/CSS/选择器/媒体查询.md",
+    "Web/JavaScript/基础/DOM/各种属性方法/Element接口.md",
+    "Web/JavaScript/基础/DOM/各种属性方法/Document接口.md",
+    "Web/JavaScript/基础/DOM/各种属性方法/Attr接口.md",
+    "Web/web开发工具/typescript/更多关于函数.md",
+    "Web/JavaScript/基础/对象/原型prototype.md",
+    "Web/JavaScript/基础/JS内置对象(类)/Array.md",
+    "算法与数据结构/算法/二分法.md",
+    "算法与数据结构/算法题/对角线遍历矩阵.md",
+    "Web/web开发工具/typescript/日常类型.md",
+    "Web/web开发工具/webpack/基础知识/代码分离.md",
+    "Web/HTML/标签/video和audio.md",
+    "Web/web开发工具/webpack/基础知识/配置/优化Optimization.md",
+    "Web/JavaScript/基础/JS内置对象(类)/Set和Map.md",
+    "Web/JavaScript/基础/JS内置对象(类)/Math.md",
+    "Web/web开发工具/webpack/基础知识/配置/Mode.md",
+    "Web/web开发工具/webpack/基础知识/缓存.md",
+    "Web/web开发工具/webpack/基础知识/配置/输出.md",
+    "Web/web开发工具/typescript/类型缩小.md",
+    "Web/web开发工具/webpack/基础知识/配置",
+    "Web/web开发工具/webpack/基础知识",
+    "Web/web开发工具/webpack",
+    "Web/web开发工具/typescript",
+    "Web/web开发工具/npm",
+    "Web/web开发工具/eslint",
+    "Web/web开发工具/prettier",
+    "Web/web开发工具/软件包管理基础",
+    "git/基础终端命令",
+    "Web/web开发工具",
     "git/git分支/跳过分支进行变基示意图 1.svg",
     "git/git分支/Pasted image 20240705223949.png",
     "git/git分支/跳过分支进行变基示意图二.svg",
     "git/git分支/跳过分支进行变基示意图.svg",
-    "Web/JavaScript/JS类型化数组/视图.md",
-    "Web/CSS/过渡、变换与动画/动画/使用 @keyframes 定义动画序列.md",
-    "Web/CSS/过渡、变换与动画/动画/animation.md",
-    "Web/CSS/选择器/复杂伪类选择器/nth/nth-child().md",
-    "Web/CSS/选择器/媒体查询.md",
-    "Web/JavaScript/canvas API/Path2D对象.md",
     "Web/JavaScript/canvas API/arcTo.png",
-    "Web/JavaScript/JS类型化数组/缓冲.md",
-    "Web/JavaScript/JS类型化数组/概述.md",
-    "git/git分支/分支.md",
-    "Web/JavaScript/异步/Promise/如何实现基于Promise的API.md",
-    "Web/JavaScript/异步/Promise/构造器Promise.md",
-    "git/git配置.md",
     "Web/JavaScript/基础/数据类型/Pasted image 20240324211319.png",
     "images/ease.svg",
     "images/网格布局.png",
