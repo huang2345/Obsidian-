@@ -14,9 +14,11 @@
 		
 通过 `EventTarget.addEventListener(type,listener,useCapture)` 为元素添加多个事件响应函数
 	type是监听事件类型，listener是事件响应函数地址，useCapture为true使用捕获事件模型，false使用冒泡事件模型
+	
+`removeEventListener(type,listener)`
 
 4.事件指派
-	事件指派实质上是创建并初始化一个空的、但事件实现的接口与事件类型和要触发的元素的事件类型相同的事件对象，以该对象为dispatchEvent()方法的参数实现手动触发事件
+	事件指派实质上是创建并初始化一个空的、但==事件实现的接口与事件类型==和要**手动触发**的元素的事件类型相同的事件对象，然后调用元素的dispatchEvent()，将新创建的事件对象作为参数，实现手动触发事件
 
 document.createEvent(eventType)
 参数为事件接口类型的字符串，如'MouseEvent'
