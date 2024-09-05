@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8d937d1db5b2b2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/web开发工具/webpack/基础知识/代码分离.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "81537236f8b3cd43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/canvas API/操作像素.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0cff25bc18ea3dc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/web开发工具/webpack/基础知识/配置/输出.md",
+                "file": "git/git基础/远程仓库.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/JavaScript/canvas API/操作像素.md",
+                "file": "git/git基础/远程仓库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/JavaScript/canvas API/操作像素.md",
+                "file": "git/git基础/远程仓库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/JavaScript/canvas API/操作像素.md"
+                "file": "git/git基础/远程仓库.md"
               }
             }
           }
@@ -174,32 +149,33 @@
   },
   "active": "81537236f8b3cd43",
   "lastOpenFiles": [
-    "Web/JavaScript/canvas API/canvas实现基本动画.md",
-    "Web/JavaScript/canvas API/操作像素.md",
-    "Web/JavaScript/canvas API/使用图片.md",
-    "Web/JavaScript/canvas API/应用样式和色彩.md",
-    "Web/JavaScript/canvas API/绘制图形.md",
-    "Web/JavaScript/基础/DOM/各种属性方法/Node接口.md",
-    "Web/CSS/CSS排版/弹性盒子.md",
-    "Web/CSS/选择器/媒体查询.md",
-    "Web/JavaScript/基础/DOM/各种属性方法/Element接口.md",
+    "git/git分支/分支.md",
+    "git/Git服务器/通信协议.md",
+    "git/git基础/远程仓库.md",
+    "git/git基础/git基础命令.md",
+    "SQL/查/查.md",
+    "SQL/查",
+    "Web/JavaScript/基础/JS内置对象(类)/String.md",
     "Web/JavaScript/基础/DOM/各种属性方法/Document接口.md",
-    "Web/JavaScript/基础/DOM/各种属性方法/Attr接口.md",
-    "Web/web开发工具/typescript/更多关于函数.md",
-    "Web/JavaScript/基础/对象/原型prototype.md",
-    "Web/JavaScript/基础/JS内置对象(类)/Array.md",
-    "算法与数据结构/算法/二分法.md",
-    "算法与数据结构/算法题/对角线遍历矩阵.md",
-    "Web/web开发工具/typescript/日常类型.md",
-    "Web/web开发工具/webpack/基础知识/代码分离.md",
+    "Web/JavaScript/基础/CSS/CSSStyleDeclaration.setProperty().md",
+    "Web/JavaScript/基础/DOM/JS获取DOM树中的HTML元素.md",
+    "Web/JavaScript/基础/DOM/操作文档.md",
+    "Web/JavaScript/基础/浏览器对象（BOM/window.md",
+    "Web/JavaScript/基础/浏览器对象（BOM/navigator.md",
+    "Web/JavaScript/基础/浏览器对象（BOM/location.md",
+    "Web/JavaScript/基础/浏览器对象（BOM/history.md",
+    "Web/JavaScript/基础/浏览器对象（BOM/screen.md",
     "Web/HTML/标签/video和audio.md",
-    "Web/web开发工具/webpack/基础知识/配置/优化Optimization.md",
-    "Web/JavaScript/基础/JS内置对象(类)/Set和Map.md",
-    "Web/JavaScript/基础/JS内置对象(类)/Math.md",
-    "Web/web开发工具/webpack/基础知识/配置/Mode.md",
-    "Web/web开发工具/webpack/基础知识/缓存.md",
-    "Web/web开发工具/webpack/基础知识/配置/输出.md",
+    "Web/web开发工具/typescript/更多关于函数.md",
     "Web/web开发工具/typescript/类型缩小.md",
+    "Web/web开发工具/typescript/日常类型.md",
+    "Web/web开发工具/typescript/ts使用.md",
+    "Web/JavaScript/canvas API/变形transformations.md",
+    "Web/JavaScript/canvas API/组合.md",
+    "Web/JavaScript/canvas API/优化.md",
+    "Web/JavaScript/canvas API/绘制图形.md",
+    "Web/JavaScript/canvas API/应用样式和色彩.md",
+    "Web/JavaScript/canvas API/使用图片.md",
     "Web/web开发工具/webpack/基础知识/配置",
     "Web/web开发工具/webpack/基础知识",
     "Web/web开发工具/webpack",
@@ -209,7 +185,6 @@
     "Web/web开发工具/prettier",
     "Web/web开发工具/软件包管理基础",
     "git/基础终端命令",
-    "Web/web开发工具",
     "git/git分支/跳过分支进行变基示意图 1.svg",
     "git/git分支/Pasted image 20240705223949.png",
     "git/git分支/跳过分支进行变基示意图二.svg",
