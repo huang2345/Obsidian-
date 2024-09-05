@@ -11,7 +11,7 @@
 - window.setInterval
 - window.setTimeout
 - ==requestAnimationFrame(callback)
-	- 浏览器在下次重绘之前调用指定的回调函数更新动画。回调函数会在浏览器下一次重绘之前执行。
+	- 浏览器调用指定的回调函数更新动画。回调函数会在浏览器下一次重绘之前执行。
 	- 如果想要形成连续的动画，回调函数需要用requestAnimationFrame形成递归
 	- 回调函数执行次数通常是每秒 60 次，但在大多数遵循 W3C 建议的浏览器中，回调函数执行次数通常与浏览器屏幕刷新次数相匹配
 	- [`DOMHighResTimeStamp`](https://developer.mozilla.org/zh-CN/docs/Web/API/DOMHighResTimeStamp) 参数会传入回调方法中，它指示当前被 `requestAnimationFrame()` 排序的回调函数被触发的时间。在同一个帧中的多个回调函数，它们每一个都会接受到一个相同的时间戳，即使在计算上一个回调函数的工作负载期间已经消耗了一些时间。该时间戳是一个十进制数，单位为毫秒，最小精度为 1ms
