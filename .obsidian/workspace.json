@@ -11,10 +11,11 @@
             "id": "00308c198faa6d40",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "Web/JavaScript/异步/异步获取资源/fetch API/fetch()全局函数.md",
-                "staged": true
+                "file": "git/git基础/远程仓库.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "git/git基础/远程仓库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "git/git基础/远程仓库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "git/git基础/远程仓库.md"
+              }
             }
           },
           {
@@ -150,8 +155,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4a0bb9bf5ada4539",
+  "active": "690e4dca7bf5377d",
   "lastOpenFiles": [
+    "git/git基础/git基础命令.md",
+    "git/git分支/分支.md",
+    "git/git基础/远程仓库.md",
     "Web/JavaScript/异步/异步获取资源/fetch API/Response.md",
     "Web/JavaScript/异步/异步获取资源/fetch API/fetch().md",
     "Web/JavaScript/异步/Promise/async与await.md",
@@ -160,12 +168,9 @@
     "Web/JavaScript/异步/Promise/如何实现基于Promise的API.md",
     "Web/JavaScript/异步/Promise/构造器Promise.md",
     "Web/JavaScript/基础/对象/私有属性的取值器和赋值器.md",
-    "git/git分支/分支.md",
-    "git/git基础/git基础命令.md",
     "Web/web开发工具/typescript/日常类型.md",
     "Web/JavaScript/基础/对象/类.md",
     "SQL/查/查.md",
-    "git/git基础/远程仓库.md",
     "git/Git服务器/通信协议.md",
     "SQL/查",
     "Web/JavaScript/基础/JS内置对象(类)/String.md",
