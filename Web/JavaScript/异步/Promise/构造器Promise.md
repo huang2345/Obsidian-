@@ -2,7 +2,7 @@
 主要用于封装尚未支持 Promise 的基于回调的 API。
 
 - executor(resolve,reject)
-	- 在构造函数中执行的 function。它接收两个函数作为参数：resolveFunc 和 rejectFunc。executor 中抛出的任何错误都会导致 Promise 被拒绝，并且返回值将被忽略。
+	- 在构造函数中执行的 function。它接收两个函数作为参数：resolve 和 reject。executor 中抛出的任何错误都会导致 Promise 被拒绝，并且返回值将被忽略。
 当 `resolveFunc` 或 `rejectFunc` 被调用时，该Promise对象就会变为已解决。但是，如果在调用这两个函数时将另一个Promise对象作为参数，可以说该 Promise 对象“已解决”，但仍未“敲定（settled）”
 
 `executor` 的完成状态对 Promise 的状态影响有限：
@@ -12,9 +12,9 @@
 以下是典型的 Promise 流程概述：
 1. 构造函数在生成新的Promise对象时，会生成一对对应的 `resolveFunc` 和 `rejectFunc` 函数，它们将会作为executor的参数被传入
 2. executor是同步调用的，在创建Promise对象时调用
-3. 异步操作中最终通过调用 `resolveFunc/rejectFunc` 引起的副作用与Promise实例进行通信
-	- 只有第一次调用 `resolveFunc/rejectFunc` 时会影响Promise实例的最终状态，后面调用的将被忽略
-	- 如果 `resolveFunc` 被传入另一个Promise对象，那么该Promise对象会保持待定状态
+3. 异步操作中最终通过调用 `resolve/reject` 引起的副作用与Promise实例进行通信
+	- 只有第一次调用 `resolve/reject` 时会影响Promise实例的最终状态，后面调用的将被忽略
+	- 如果 `resolve` 被传入另一个Promise对象，那么该Promise对象会保持待定状态
 	- 如果executor抛出错误，则该Promise对象被拒绝。但是，如果 `resolveFunc/rejectFunc` 已经被调用，那么该错误将被忽略
 >resolve 和 reject 回调仅在 executor 函数的作用域内可用，这意味着在构造 promise 之后无法访问它们。
 >如果你想在决定如何解决之前先构造 promise，可以使用 Promise.withResolvers() 方法，该方法暴露了 resolve and reject 函数。
