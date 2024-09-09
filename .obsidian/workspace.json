@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git基础/远程仓库.md",
+                "file": "Web/HTTP/HTTP基础/HTTP概述.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 200
   },
   "right": {
     "id": "4a8601e20ad5fcc3",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git基础/远程仓库.md",
+                "file": "Web/HTTP/HTTP基础/HTTP概述.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git基础/远程仓库.md",
+                "file": "Web/HTTP/HTTP基础/HTTP概述.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git基础/远程仓库.md"
+                "file": "Web/HTTP/HTTP基础/HTTP概述.md"
               }
             }
           }
@@ -149,9 +149,18 @@
   },
   "active": "81537236f8b3cd43",
   "lastOpenFiles": [
+    "Web/HTTP/HTTP基础/http-response.svg",
+    "Web/HTTP/HTTP基础/http-request.svg",
+    "Web/HTTP/HTTP基础/http-layers.svg",
+    "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
+    "Web/HTTP/HTTP基础/HTTP概述.md",
+    "Web/HTTP/HTTP基础",
+    "Web/HTTP/资源/MIME类型.md",
+    "git/git基础/远程仓库.md",
+    "Web/HTTP/资源",
+    "Web/HTTP",
     "git/git分支/分支.md",
     "git/Git服务器/通信协议.md",
-    "git/git基础/远程仓库.md",
     "git/git基础/git基础命令.md",
     "SQL/查/查.md",
     "SQL/查",
@@ -172,19 +181,12 @@
     "Web/web开发工具/typescript/ts使用.md",
     "Web/JavaScript/canvas API/变形transformations.md",
     "Web/JavaScript/canvas API/组合.md",
-    "Web/JavaScript/canvas API/优化.md",
-    "Web/JavaScript/canvas API/绘制图形.md",
-    "Web/JavaScript/canvas API/应用样式和色彩.md",
-    "Web/JavaScript/canvas API/使用图片.md",
     "Web/web开发工具/webpack/基础知识/配置",
     "Web/web开发工具/webpack/基础知识",
     "Web/web开发工具/webpack",
     "Web/web开发工具/typescript",
     "Web/web开发工具/npm",
     "Web/web开发工具/eslint",
-    "Web/web开发工具/prettier",
-    "Web/web开发工具/软件包管理基础",
-    "git/基础终端命令",
     "git/git分支/跳过分支进行变基示意图 1.svg",
     "git/git分支/Pasted image 20240705223949.png",
     "git/git分支/跳过分支进行变基示意图二.svg",
@@ -193,8 +195,6 @@
     "Web/JavaScript/基础/数据类型/Pasted image 20240324211319.png",
     "images/ease.svg",
     "images/网格布局.png",
-    "images/flex_terms.png",
-    "Web/CSS/渐变色/线性渐变渐变线角度示意图.jpg",
     "未命名.canvas"
   ]
 }
