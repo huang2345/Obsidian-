@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "614eba9edfc4c816",
+        "id": "b31d66a350e04cfe",
         "type": "tabs",
         "children": [
           {
-            "id": "81537236f8b3cd43",
+            "id": "00308c198faa6d40",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "git/git基础/远程仓库.md",
-                "mode": "source",
-                "source": false
+                "file": "Web/JavaScript/异步/异步获取资源/fetch API/fetch()全局函数.md",
+                "staged": true
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git基础/远程仓库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git基础/远程仓库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,18 +121,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "git/git基础/远程仓库.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "efeab6689595797c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,16 +146,27 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "81537236f8b3cd43",
+  "active": "00308c198faa6d40",
   "lastOpenFiles": [
+    "Web/JavaScript/异步/异步获取资源/fetch API/Response.md",
+    "Web/JavaScript/异步/异步获取资源/fetch API/fetch().md",
+    "Web/JavaScript/异步/Promise/async与await.md",
+    "Web/JavaScript/异步/Promise/Promise.md",
+    "Web/JavaScript/异步/Promise/Pasted image 20240908193911.png",
+    "Web/JavaScript/异步/Promise/如何实现基于Promise的API.md",
+    "Web/JavaScript/异步/Promise/构造器Promise.md",
+    "Web/JavaScript/基础/对象/私有属性的取值器和赋值器.md",
     "git/git分支/分支.md",
-    "git/Git服务器/通信协议.md",
-    "git/git基础/远程仓库.md",
     "git/git基础/git基础命令.md",
+    "Web/web开发工具/typescript/日常类型.md",
+    "Web/JavaScript/基础/对象/类.md",
     "SQL/查/查.md",
+    "git/git基础/远程仓库.md",
+    "git/Git服务器/通信协议.md",
     "SQL/查",
     "Web/JavaScript/基础/JS内置对象(类)/String.md",
     "Web/JavaScript/基础/DOM/各种属性方法/Document接口.md",
@@ -167,15 +180,6 @@
     "Web/JavaScript/基础/浏览器对象（BOM/screen.md",
     "Web/HTML/标签/video和audio.md",
     "Web/web开发工具/typescript/更多关于函数.md",
-    "Web/web开发工具/typescript/类型缩小.md",
-    "Web/web开发工具/typescript/日常类型.md",
-    "Web/web开发工具/typescript/ts使用.md",
-    "Web/JavaScript/canvas API/变形transformations.md",
-    "Web/JavaScript/canvas API/组合.md",
-    "Web/JavaScript/canvas API/优化.md",
-    "Web/JavaScript/canvas API/绘制图形.md",
-    "Web/JavaScript/canvas API/应用样式和色彩.md",
-    "Web/JavaScript/canvas API/使用图片.md",
     "Web/web开发工具/webpack/基础知识/配置",
     "Web/web开发工具/webpack/基础知识",
     "Web/web开发工具/webpack",
@@ -194,7 +198,6 @@
     "images/ease.svg",
     "images/网格布局.png",
     "images/flex_terms.png",
-    "Web/CSS/渐变色/线性渐变渐变线角度示意图.jpg",
     "未命名.canvas"
   ]
 }
