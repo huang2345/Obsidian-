@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b31d66a350e04cfe",
+        "id": "548cd5115a8b6619",
         "type": "tabs",
         "children": [
           {
-            "id": "00308c198faa6d40",
+            "id": "eaa7c9fab475c528",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/git基础/远程仓库.md",
+                "file": "python/基础/引用数据类型/列表.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/git基础/远程仓库.md",
+                "file": "python/基础/引用数据类型/列表.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/git基础/远程仓库.md",
+                "file": "python/基础/引用数据类型/列表.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/git基础/远程仓库.md"
+                "file": "python/基础/引用数据类型/列表.md"
               }
             }
           },
@@ -155,12 +155,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00308c198faa6d40",
+  "active": "eaa7c9fab475c528",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "git/git基础/远程仓库.md",
+    "python/基础/基础数据类型/常量.md",
+    "python/基础/引用数据类型/列表.md",
+    "python/基础/引用数据类型/未命名",
+    "python/基础/引用数据类型",
+    "python/基础/基础数据类型/数值.md",
+    "python/基础/基础数据类型/string.md",
     "Web/HTTP/资源/MIME类型.md",
+    "python/基础/基础数据类型",
+    "python/基础/基础数据类型.md",
+    "python/基础",
+    "python",
     "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
+    "git/git基础/远程仓库.md",
+    "conflict-files-obsidian-git.md",
     "Web/HTTP/HTTP基础/http-response.svg",
     "Web/HTTP/HTTP基础/HTTP概述.md",
     "Web/HTTP/HTTP基础/http-request.svg",
@@ -186,17 +196,7 @@
     "Web/JavaScript/基础/JS内置对象(类)/String.md",
     "Web/JavaScript/基础/DOM/各种属性方法/Document接口.md",
     "Web/JavaScript/基础/CSS/CSSStyleDeclaration.setProperty().md",
-    "Web/JavaScript/基础/DOM/JS获取DOM树中的HTML元素.md",
-    "Web/JavaScript/基础/DOM/操作文档.md",
-    "Web/JavaScript/基础/浏览器对象（BOM/window.md",
-    "Web/JavaScript/基础/浏览器对象（BOM/navigator.md",
-    "Web/JavaScript/基础/浏览器对象（BOM/location.md",
     "Web/web开发工具/webpack/基础知识/配置",
-    "Web/web开发工具/webpack/基础知识",
-    "Web/web开发工具/webpack",
-    "Web/web开发工具/typescript",
-    "Web/web开发工具/npm",
-    "Web/web开发工具/eslint",
     "git/git分支/跳过分支进行变基示意图 1.svg",
     "git/git分支/Pasted image 20240705223949.png",
     "git/git分支/跳过分支进行变基示意图二.svg",
