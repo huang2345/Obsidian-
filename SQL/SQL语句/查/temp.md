@@ -44,18 +44,6 @@ SELECT name,
 - LOWER：小写
 - LENGTH：长度
 `SELECT ... , UPPER(name) as upper_name from  表名`
-#### 聚合函数
-- COUNT：计算指定列的行数或非空值的数量
-- SUM：求和
-- AVG：求平均值
-- MAX
-- MIN
-`SELECT SUM(score) AS '总成绩' FROM 表名`
-#### GROUP BY字段分组
-对数据进行分组，通常与聚合函数一起用
-`SELECT ... from 表名 GROUP BY 字段1,字段2,...`
-
-`SELECT a,b from 表名 GROUP BY a`以a来分组
 #### HAVING子句
 用于在分组聚合后对分组进行筛选。
 
