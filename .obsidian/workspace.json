@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "548cd5115a8b6619",
+        "id": "6ead79698f9036b0",
         "type": "tabs",
         "children": [
           {
-            "id": "eaa7c9fab475c528",
+            "id": "60b540b2d38f409a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SQL/基础/数据类型.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQL/基础/数据类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQL/基础/数据类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SQL/基础/数据类型.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,71 +130,72 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a29e51d7f1f8f0a",
+  "active": "60b540b2d38f409a",
   "lastOpenFiles": [
-    "SQL/SQL语句/增/创建数据库和表.md",
-    "SQL/基础/数据类型.md",
-    "SQL/基础",
-    "SQL/SQL语句",
-    "SQL/命令/登录.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Type.md",
+    "Web/JavaScript/异步/异步获取资源/fetch API/Request.md",
+    "Web/JavaScript/异步/异步获取资源/fetch API/fetch().md",
+    "Web/JavaScript/异步/异步获取资源/fetch API/Response.md",
+    "Web/HTTP/HTTP基础/HTTP标头.md",
+    "Web/HTTP/HTTP基础/HTTP缓存.md",
+    "Web/HTTP/HTTP基础/HTTP消息.md",
+    "Web/HTTP/HTTP基础/HTTP概述.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Location.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Language.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Encoding.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Length.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息",
+    "Web/HTTP/HTTP基础/标头",
+    "images/Pasted image 20240912145000.png",
+    "images/Pasted image 20240912144946.png",
+    "images/Pasted image 20240912142955.png",
+    "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
+    "Web/HTTP/资源/MIME类型.md",
+    "SQL/SQL语句/查/聚合、分组与排序.md",
     "SQL/SQL语句/查/temp.md",
-    "SQL/命令",
-    "SQL/SQL语句/改",
-    "SQL/SQL语句/删",
-    "SQL/SQL语句/增",
     "SQL/SQL语句/查/条件查询.md",
     "SQL/SQL语句/查/SELECT语句基础.md",
+    "SQL/SQL语句/增/向表中插入数据.md",
+    "SQL/SQL语句/增/创建数据库和表.md",
+    "SQL/SQL语句/删/删除表和列.md",
+    "SQL/SQL语句/改/修改表.md",
+    "SQL/SQL语句/DCL",
+    "SQL/SQL语句/改",
+    "SQL/基础/约束.md",
+    "SQL/SQL语句/删",
+    "SQL/基础/数据类型.md",
+    "SQL/MySQL命令/登录.md",
+    "SQL/基础",
+    "SQL/SQL语句",
+    "SQL/MySQL命令",
+    "SQL/SQL语句/改",
+    "SQL/SQL语句/删",
     "python/基础/对象/函数.md",
-    "python/基础/引用数据类型/列表.md",
-    "git/git基础/远程仓库.md",
-    "python/基础/通用操作/切片.md",
-    "python/基础/通用操作/全局函数.md",
-    "python/基础/通用操作/import.md",
-    "python/基础/通用操作/if...elif...else.md",
-    "python/基础/通用操作",
-    "python/基础/循环/while.md",
-    "python/基础/循环/for.md",
-    "python/基础/循环/break和continue.md",
-    "python/基础/循环",
-    "python/基础/引用数据类型/集合.md",
-    "python/基础/引用数据类型/字典.md",
-    "python/基础/引用数据类型/元组.md",
-    "python/基础/对象",
-    "git/git基础/git基础命令.md",
-    "git/git分支/分支.md",
-    "python/基础/基础数据类型/常量.md",
-    "python/基础/引用数据类型/未命名",
-    "python/基础/基础数据类型/数值.md",
-    "python/基础/基础数据类型/string.md",
-    "Web/HTTP/资源/MIME类型.md",
-    "python/基础/基础数据类型.md",
-    "Web/HTTP/HTTP基础/http-response.svg",
-    "Web/HTTP/HTTP基础/http-request.svg",
-    "Web/HTTP/HTTP基础/http-layers.svg",
+    "images/http-response.svg",
+    "images/http-request.svg",
+    "images/http-layers.svg",
     "Web/JavaScript/异步/Promise/Pasted image 20240908193911.png",
     "git/git分支/跳过分支进行变基示意图 1.svg",
     "git/git分支/Pasted image 20240705223949.png",
     "git/git分支/跳过分支进行变基示意图二.svg",
-    "git/git分支/跳过分支进行变基示意图.svg",
-    "Web/JavaScript/canvas API/arcTo.png",
-    "Web/JavaScript/基础/数据类型/Pasted image 20240324211319.png",
     "未命名.canvas"
   ]
 }
