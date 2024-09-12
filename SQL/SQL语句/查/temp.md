@@ -44,8 +44,3 @@ SELECT name,
 - LOWER：小写
 - LENGTH：长度
 `SELECT ... , UPPER(name) as upper_name from  表名`
-#### HAVING子句
-用于在分组聚合后对分组进行筛选。
-
-**WHERE** 子句用于在 分组之前 进行过滤，而 **HAVING** 子句用于在 分组之后 进行过滤。
-`SELECT ...,from 表名 GROUP BY ... HAVING 条件1,...`
