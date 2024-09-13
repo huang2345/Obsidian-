@@ -18,20 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4bf3624944a11ec4",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "Web/web开发工具/typescript/类型缩小.md",
-                "staged": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Web/HTTP/资源/对Web开发者重要的MIME类型.md"
+              }
             }
           },
           {
@@ -163,7 +155,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4bf3624944a11ec4",
+  "active": "efeab6689595797c",
   "lastOpenFiles": [
     "Web/web开发工具/typescript/更多关于函数.md",
     "SQL/MySQL命令/系统命令.md",
