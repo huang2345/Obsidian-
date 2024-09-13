@@ -29,3 +29,15 @@ Cache-Control: private
 ```HTTP
 Cache-Control: no-store
 ```
+#### 启发式缓存
+HTTP旨在尽可能多地缓存，即使没有设置Cache-Control，如果满足某些条件，响应也会被存储和重用。这称为**启发式缓存**。
+启发式缓存是在 `Cache-Control` 被广泛采用之前出现的一种解决方法，基本上所有响应都应明确指定 `Cache-Control` 标头。
+#### 基于age的缓存策略
+存储的HTTP响应有两种状态：==fresh==和==stale==。
+- fresh表示响应有效
+- stale表示缓存的响应已过期
+确定这两种状态的标准是**age**。在 HTTP 中，age 是自响应生成以来经过的时间。
+#### Vary响应
+区分响应的方式本质上是基于URL：
+但是同一URL的响应的内容可能不同，来自服务器的响应可能取决于 `Accept`、`Accept-Language` 和 `Accept-Encoding` 请求标头的值。
+例如，对于带有 `Accept-Language: en` 标头并已缓存的英语内容，不希望再对具有 `Accept-Language: ja` 请求标头的请求重用该缓存响应。在这种情况下，你可以通过在 `Vary` 标头的值中添加“`Accept-Language`”，根据语言单独缓存响应。
