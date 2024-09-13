@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "988993ba5e37e831",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/HTTP/资源/对Web开发者重要的MIME类型.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -155,8 +168,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "efeab6689595797c",
+  "active": "988993ba5e37e831",
   "lastOpenFiles": [
+    "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
+    "conflict-files-obsidian-git.md",
+    "images/http-response.svg",
+    "images/http-request.svg",
+    "images/http-layers.svg",
+    "images/Pasted image 20240912145000.png",
+    "images/Pasted image 20240912144946.png",
+    "images/Pasted image 20240912142955.png",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Type.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Location.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Length.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Language.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Encoding.md",
+    "Web/HTTP/HTTP基础/标头/消息主体信息",
+    "Web/HTTP/HTTP基础/标头",
+    "Web/HTTP/HTTP基础/HTTP缓存.md",
+    "Web/HTTP/HTTP基础/HTTP消息.md",
+    "Web/HTTP/HTTP基础/HTTP标头.md",
     "Web/web开发工具/typescript/更多关于函数.md",
     "SQL/MySQL命令/系统命令.md",
     "SQL/MySQL命令/切换数据库.md",
@@ -165,7 +196,6 @@
     "Web/web开发工具/typescript/ts使用.md",
     "Web/HTTP/HTTP基础/HTTP概述.md",
     "Web/HTTP/资源/MIME类型.md",
-    "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
     "git/git基础/远程仓库.md",
     "SQL/基础/约束.md",
     "SQL/基础/数据类型.md",
@@ -175,34 +205,17 @@
     "SQL/SQL语句/删/删除表和列.md",
     "SQL/MySQL命令/登录.md",
     "SQL/MySQL命令",
-    "SQL/SQL语句/增/创建数据库和表.md",
     "SQL/基础",
     "SQL/SQL语句",
-    "SQL/命令/登录.md",
-    "SQL/SQL语句/查/temp.md",
     "SQL/命令",
     "SQL/SQL语句/改",
     "SQL/SQL语句/删",
     "SQL/SQL语句/增",
-    "SQL/SQL语句/查/条件查询.md",
-    "SQL/SQL语句/查/SELECT语句基础.md",
-    "python/基础/对象/函数.md",
-    "python/基础/引用数据类型/列表.md",
-    "python/基础/通用操作/切片.md",
-    "python/基础/通用操作/全局函数.md",
     "python/基础/通用操作",
-    "python/基础/循环",
-    "python/基础/对象",
     "Web/HTTP/HTTP基础/http-response.svg",
     "Web/HTTP/HTTP基础/http-request.svg",
     "Web/HTTP/HTTP基础/http-layers.svg",
     "Web/JavaScript/异步/Promise/Pasted image 20240908193911.png",
-    "git/git分支/跳过分支进行变基示意图 1.svg",
-    "git/git分支/Pasted image 20240705223949.png",
-    "git/git分支/跳过分支进行变基示意图二.svg",
-    "git/git分支/跳过分支进行变基示意图.svg",
-    "Web/JavaScript/canvas API/arcTo.png",
-    "Web/JavaScript/基础/数据类型/Pasted image 20240324211319.png",
     "未命名.canvas"
   ]
 }
