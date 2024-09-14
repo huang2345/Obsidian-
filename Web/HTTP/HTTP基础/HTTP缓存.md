@@ -79,10 +79,24 @@ HTTP旨在尽可能多地缓存，即使没有设置Cache-Control，如果满足
 为了从页面错误中恢复或更新到最新版本的资源，浏览器为用户提供了重新加载功能。
 在浏览器重新加载期间发送的HTTP请求会设置`Cache-Control:max-age=0`，使该请求立即过时，然后通过`If-None-Match`或`If-Modified-Since`进行验证，以确保使用的响应是最新的
 
-该行为也在[Fetch标准]()中定义，并且可以通过在缓存模式设置为`no-cache`的情况下，在JS中调用fetch()来重现
+该行为也在[Fetch标准]()中定义，并且可以通过在缓存模式(`cache`标头)设置为`no-cache`的情况下，在JS中调用fetch()来重现
 ```JS
 fetch("/", { cache: "no-cache" });
 ```
 >注意`reload`不是这种情况下的正确模式
 ##### 强制重新加载
+>出于向后兼容的原因，浏览器在重新加载期间使用`max-age=0`,因为在 HTTP/1.1 之前的许多过时的实现中不理解`no-cache`。
+强制重新加载是绕过缓存响应的另一种方法。
 
+浏览器强制重新加载期间的HTTP请求如下所示：
+```HTTP
+GET / HTTP/1.1
+Host: example.com
+Pragma: no-cache
+Cache-Control: no-cache
+```
+由于这不是带有`no-cache`的条件请求，因此可以确定会从源服务器获得`200 OK`。
+该行为也在[Fetch标准]()中定义，并且可以通过在缓存模式(`cache`标头)设置为`reload`的情况下，在JS中调用fetch()来重现
+```JS
+fetch("/", { cache: "reload" });
+```
