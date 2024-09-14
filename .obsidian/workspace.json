@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "548cd5115a8b6619",
+        "id": "ae6fb47614144468",
         "type": "tabs",
         "children": [
           {
-            "id": "eaa7c9fab475c528",
+            "id": "0000c0495e9125bf",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "python/基础/对象/函数.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "python/基础/对象/函数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "python/基础/对象/函数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "python/基础/对象/函数.md"
+              }
             }
           },
           {
@@ -150,43 +155,43 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "efeab6689595797c",
+  "active": "0000c0495e9125bf",
   "lastOpenFiles": [
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Program.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Expires.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Clear-Site-Data.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Cache-Control.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Age.md",
+    "python/基础/引用数据类型/集合.md",
+    "python/基础/引用数据类型/字典.md",
+    "python/基础/引用数据类型/元组.md",
+    "python/基础/引用数据类型/列表.md",
+    "python/基础/循环/while.md",
+    "python/基础/循环/for.md",
+    "python/基础/循环/break和continue.md",
+    "python/基础/通用操作/切片.md",
+    "python/基础/通用操作/全局函数.md",
+    "python/基础/通用操作/import.md",
+    "python/基础/通用操作/if...elif...else.md",
+    "python/基础/基础数据类型/常量.md",
+    "python/基础/基础数据类型/数值.md",
+    "python/基础/基础数据类型/string.md",
+    "python/基础/对象/函数.md",
+    "SQL/SQL语句/增/向表中插入数据.md",
+    "SQL/SQL语句/增/创建数据库和表.md",
+    "SQL/SQL语句/删/删除表和列.md",
+    "SQL/SQL语句/改/修改表.md",
+    "SQL/SQL语句/查/聚合、分组与排序.md",
+    "SQL/SQL语句/查/条件查询.md",
+    "SQL/SQL语句/查/SELECT语句基础.md",
+    "SQL/MySQL命令/系统命令.md",
+    "SQL/MySQL命令/切换数据库.md",
+    "SQL/MySQL命令/登录.md",
+    "SQL/基础/约束.md",
     "Web/HTTP/HTTP基础/标头/缓存(cache)",
-    "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
-    "conflict-files-obsidian-git.md",
     "images/http-response.svg",
     "images/http-request.svg",
     "images/http-layers.svg",
     "images/Pasted image 20240912145000.png",
     "images/Pasted image 20240912144946.png",
     "images/Pasted image 20240912142955.png",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Type.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Location.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Length.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Language.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Encoding.md",
     "Web/HTTP/HTTP基础/标头/消息主体信息",
     "Web/HTTP/HTTP基础/标头",
-    "Web/HTTP/HTTP基础/HTTP缓存.md",
-    "Web/HTTP/HTTP基础/HTTP消息.md",
-    "Web/HTTP/HTTP基础/HTTP标头.md",
-    "Web/web开发工具/typescript/更多关于函数.md",
-    "SQL/MySQL命令/系统命令.md",
-    "SQL/MySQL命令/切换数据库.md",
-    "Web/web开发工具/typescript/类型缩小.md",
-    "Web/web开发工具/typescript/日常类型.md",
-    "Web/web开发工具/typescript/ts使用.md",
-    "Web/HTTP/HTTP基础/HTTP概述.md",
-    "Web/HTTP/资源/MIME类型.md",
-    "git/git基础/远程仓库.md",
-    "SQL/基础/约束.md",
-    "SQL/基础/数据类型.md",
     "SQL/MySQL命令",
     "SQL/基础",
     "SQL/SQL语句",
