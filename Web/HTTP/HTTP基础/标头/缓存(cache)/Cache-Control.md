@@ -38,7 +38,8 @@ Cache-control: s-maxage=<seconds>
 不使用任何缓存
 ##### 到期
 ###### max-age=\<seconds>
-设置缓存存储的最大周期，超过这个时间缓存被认为过期。与`Expires`相反，时间是相对于请求的时间。
+设置缓存存储的最大周期，超过这个时间缓存被认为过期。如果设置为0，那么缓存会立即过期。
+与`Expires`相反，时间是相对于请求的时间。
 ###### s-maxage=\<seconds>
 覆盖`max-age`或者`Expires`头，但是仅适用于共享缓存(比如各个代理)，私有缓存会忽略它。
 ###### max-stale\[=\<seconds>]
