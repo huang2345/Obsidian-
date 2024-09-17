@@ -79,7 +79,7 @@ HTTP旨在尽可能多地缓存，即使没有设置Cache-Control，如果满足
 为了从页面错误中恢复或更新到最新版本的资源，浏览器为用户提供了重新加载功能。
 在浏览器重新加载期间发送的HTTP请求会设置`Cache-Control:max-age=0`，使该请求立即过时，然后通过`If-None-Match`或`If-Modified-Since`进行验证，以确保使用的响应是最新的
 
-该行为也在[Fetch标准]()中定义，并且可以通过在缓存模式(`cache`标头)设置为`no-cache`的情况下，在JS中调用fetch()来重现
+该行为也在[Fetch标准](https://fetch.spec.whatwg.org/#http-network-or-cache-fetch)中定义，并且可以通过在缓存模式(`cache`标头)设置为`no-cache`的情况下，在JS中调用fetch()来重现
 ```JS
 fetch("/", { cache: "no-cache" });
 ```
@@ -96,7 +96,26 @@ Pragma: no-cache
 Cache-Control: no-cache
 ```
 由于这不是带有`no-cache`的条件请求，因此可以确定会从源服务器获得`200 OK`。
-该行为也在[Fetch标准]()中定义，并且可以通过在缓存模式(`cache`标头)设置为`reload`的情况下，在JS中调用fetch()来重现
+该行为也在[Fetch标准](https://fetch.spec.whatwg.org/#http-network-or-cache-fetch)中定义，并且可以通过在缓存模式(`cache`标头)设置为`reload`的情况下，在JS中调用fetch()来重现
 ```JS
 fetch("/", { cache: "reload" });
 ```
+##### 避免重新验证
+长时间不会更改的内容的`max-age`标头的值应该非常大。方法是使用缓存破环——也就是说，在请求URL中包含资源信息。
+但是，当用户重新加载时，即使服务器知道内容是不可变的，也会发送重新验证请求。
+`Cache-Control`标头的`immutable`指令可用于明确指示不需要重新验证。
+>注意，[Chrome 已更改其实现](https://blog.chromium.org/2017/01/reload-reloaded-faster-and-leaner-page_26.html)，因此重新验证不会在重新加载子资源期间执行。
+
+#### 删除存储的响应
+基本上没有方法删除被缓存并且有很长的`max-age`的响应。
+一旦资源在服务器上过期，大部分用户会希望获取最新的资源，但是由于缓存的旧资源的响应还没有过期，所以用户在一些缓存策略的影响下没有更新成最新的资源。
+
+规范中提到的方法之一是使用不安全的方法（例如 POST）发送对同一 URL 的请求，但对于许多客户端而言，通常很难故意这样做。
+还有一个 `Clear-Site-Data: cache` 标头和值的规范，但[并非所有浏览器都支持它](https://groups.google.com/a/mozilla.org/g/dev-platform/c/I939w1yrTp4)——即使使用它，它也只会影响浏览器缓存，而不会影响中间缓存。
+缓存减少了对服务器的访问，这意味着服务器失去了对该 URL 的控制。如果服务器不想失去对URL的控制，应该为资源的`Cache-Control`标头添加`no-cache`指令。
+#### 请求折叠
+共享缓存主要位于源服务器之前，旨在减少到源服务器的流量。
+因此，如果多个相同的请求同时到达共享缓存，共享缓存服务器会自己请求源服务器(将单个请求转发到源)。然后源服务器将响应发送给共享缓存，共享缓存服务器再将收到的缓存发送给客户端。
+
+>当请求同时到达时会发生请求折叠，因此即使响应中给出了 `max-age=0` 或 `no-cache`，它也会被重用。
+![](Pasted%20image%2020240915235156.png)
