@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "f1d6898a12d9f777",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "46bbc2181c0696ae",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/JavaScript/异步/异步获取资源/fetch API/Request.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/JavaScript/异步/异步获取资源/fetch API/Request.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/JavaScript/异步/异步获取资源/fetch API/Request.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -167,11 +180,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "690e4dca7bf5377d",
+  "active": "f1d6898a12d9f777",
   "lastOpenFiles": [
+    "Web/JavaScript/异步/异步获取资源/fetch API/Request.md",
+    "conflict-files-obsidian-git.md",
+    "Web/web开发工具/npm/命令/npm run.md",
+    "Web/web开发工具/npm/命令/npm update.md",
+    "Web/web开发工具/npm/命令/npm install.md",
+    "Web/web开发工具/npm/命令",
+    "Web/web开发工具/Express/简单使用.md",
+    "Web/web开发工具/Express",
+    "SQL/SQL语句/改/UPDATE语句.md",
+    "SQL/SQL语句/增/INSERT语句.md",
+    "SQL/SQL语句/删/DELETE语句.md",
     "Web/JavaScript/异步/异步获取资源/fetch API/Response.md",
     "Web/JavaScript/异步/异步获取资源/fetch API/fetch().md",
-    "Web/JavaScript/异步/异步获取资源/fetch API/Request.md",
     "SQL/SQL语句/增/向表中插入数据.md",
     "SQL/SQL语句/增/创建数据库和表.md",
     "SQL/SQL语句/删/删除表和列.md",
@@ -188,15 +211,7 @@
     "Web/HTTP/HTTP基础/HTTP缓存.md",
     "Web/HTTP/HTTP基础/Pasted image 20240915235156.png",
     "Web/HTTP/HTTP基础/标头/缓存(cache)/Clear-Site-Data.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Cache-Control.md",
-    "python/基础/对象/函数.md",
-    "Web/HTTP/HTTP基础/标头/条件(Conditional)/Last-Modified.md",
-    "Web/HTTP/HTTP基础/标头/条件(Conditional)/If-None-Match.md",
-    "Web/HTTP/HTTP基础/标头/条件(Conditional)/If-Unmodified-Since.md",
-    "Web/HTTP/HTTP基础/标头/条件(Conditional)/If-Modified-Since.md",
-    "Web/HTTP/HTTP基础/标头/条件(Conditional)/ETag.md",
     "Web/HTTP/HTTP基础/标头/条件(Conditional)",
-    "python/基础/引用数据类型/集合.md",
     "Web/HTTP/HTTP基础/标头/缓存(cache)",
     "images/http-response.svg",
     "images/http-request.svg",
@@ -210,8 +225,6 @@
     "SQL/基础",
     "SQL/SQL语句",
     "SQL/命令",
-    "SQL/SQL语句/改",
-    "SQL/SQL语句/删",
     "Web/HTTP/HTTP基础/http-response.svg",
     "Web/HTTP/HTTP基础/http-request.svg",
     "Web/HTTP/HTTP基础/http-layers.svg",
