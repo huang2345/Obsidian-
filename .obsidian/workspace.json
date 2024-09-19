@@ -1,74 +1,74 @@
 {
   "main": {
-    "id": "7728acd02b1d7d6c",
+    "id": "814c2e9130caa714",
     "type": "split",
     "children": [
       {
-        "id": "6ead79698f9036b0",
+        "id": "07096926a3e3cf96",
         "type": "tabs",
         "children": [
           {
-            "id": "60b540b2d38f409a",
+            "id": "4985c22eb75d52c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTTP/HTTP基础/标头/缓存(cache)/Age.md",
+                "file": "SQL/SQL语句/增/INSERT语句.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f798cd9e59f42938",
+            "id": "30102751cc7c09c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTTP/HTTP基础/HTTP缓存.md",
+                "file": "SQL/SQL语句/改/UPDATE语句.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ff26d1436fd9d680",
+            "id": "9863426f9e406127",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/HTTP/HTTP基础/HTTP缓存.md",
+                "file": "SQL/SQL语句/查/条件查询.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "ba6171fc4d0a76f5",
+    "id": "9766a46a11c78c57",
     "type": "split",
     "children": [
       {
-        "id": "33c878e76a742ae6",
+        "id": "e2a062d912834c7e",
         "type": "tabs",
         "children": [
           {
-            "id": "690e4dca7bf5377d",
+            "id": "3779ac4e7917b33f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "982b688a2c0d5229",
+            "id": "4527973487fc85b5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +83,7 @@
             }
           },
           {
-            "id": "e3e12ba2576fd383",
+            "id": "ddf1fe7034cc6cc5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -94,23 +94,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 300
   },
   "right": {
-    "id": "4a8601e20ad5fcc3",
+    "id": "25ebfe45a8f6c6ed",
     "type": "split",
     "children": [
       {
-        "id": "d85c196a3252fdfc",
+        "id": "36f9fc3cf2c7213b",
         "type": "tabs",
         "children": [
           {
-            "id": "6ccd7333a54c8a73",
+            "id": "e6dfd708ec3324a8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/HTTP/HTTP基础/HTTP缓存.md",
+                "file": "SQL/SQL语句/改/UPDATE语句.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,19 +122,19 @@
             }
           },
           {
-            "id": "e29a3d10bc269475",
+            "id": "1172b4e35e907010",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/HTTP/HTTP基础/HTTP缓存.md",
+                "file": "SQL/SQL语句/改/UPDATE语句.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "4a0bb9bf5ada4539",
+            "id": "152b3f72eaa97c67",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,90 +145,46 @@
             }
           },
           {
-            "id": "7a29e51d7f1f8f0a",
+            "id": "64f1545a786f7745",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/HTTP/HTTP基础/HTTP缓存.md"
+                "file": "SQL/SQL语句/改/UPDATE语句.md"
               }
             }
-          },
-          {
-            "id": "efeab6689595797c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "ff26d1436fd9d680",
+  "active": "30102751cc7c09c0",
   "lastOpenFiles": [
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Age.md",
-    "Web/HTTP/HTTP基础/HTTP缓存.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Program.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Expires.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Clear-Site-Data.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)/Cache-Control.md",
-    "Web/HTTP/HTTP基础/HTTP标头.md",
-    "Web/HTTP/HTTP基础/标头/缓存(cache)",
+    "SQL/SQL语句/删/DELETE语句.md",
+    "SQL/SQL语句/删/删除表和列.md",
+    "SQL/SQL语句/改/UPDATE语句.md",
+    "SQL/SQL语句/改/修改表.md",
+    "SQL/SQL语句/增/INSERT语句.md",
+    "SQL/SQL语句/增/创建数据库和表.md",
+    "SQL/SQL语句/查/聚合、分组与排序.md",
+    "SQL/SQL语句/查/条件查询.md",
     "SQL/MySQL命令/系统命令.md",
     "SQL/MySQL命令/切换数据库.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Type.md",
-    "Web/JavaScript/异步/异步获取资源/fetch API/Request.md",
-    "Web/JavaScript/异步/异步获取资源/fetch API/fetch().md",
-    "Web/JavaScript/异步/异步获取资源/fetch API/Response.md",
-    "Web/HTTP/HTTP基础/HTTP消息.md",
-    "Web/HTTP/HTTP基础/HTTP概述.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Location.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Language.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Encoding.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息/Content-Length.md",
-    "Web/HTTP/HTTP基础/标头/消息主体信息",
-    "Web/HTTP/HTTP基础/标头",
-    "images/Pasted image 20240912145000.png",
-    "images/Pasted image 20240912144946.png",
-    "images/Pasted image 20240912142955.png",
-    "Web/HTTP/资源/对Web开发者重要的MIME类型.md",
-    "Web/HTTP/资源/MIME类型.md",
-    "SQL/SQL语句/查/聚合、分组与排序.md",
-    "SQL/SQL语句/查/temp.md",
-    "SQL/SQL语句/查/条件查询.md",
-    "SQL/SQL语句/查/SELECT语句基础.md",
-    "SQL/SQL语句/增/向表中插入数据.md",
-    "SQL/SQL语句/DCL",
-    "SQL/SQL语句/改",
-    "SQL/SQL语句/删",
-    "SQL/基础",
-    "SQL/SQL语句",
-    "SQL/MySQL命令",
-    "SQL/SQL语句/改",
-    "images/http-response.svg",
-    "images/http-request.svg",
-    "images/http-layers.svg",
-    "Web/JavaScript/异步/Promise/Pasted image 20240908193911.png",
-    "git/git分支/跳过分支进行变基示意图 1.svg",
-    "git/git分支/Pasted image 20240705223949.png",
-    "git/git分支/跳过分支进行变基示意图二.svg",
-    "未命名.canvas"
+    "SQL/MySQL命令/登录.md",
+    "SQL/基础/约束.md"
   ]
 }

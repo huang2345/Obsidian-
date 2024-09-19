@@ -38,7 +38,8 @@ Cache-control: s-maxage=<seconds>
 不使用任何缓存
 ##### 到期
 ###### max-age=\<seconds>
-设置缓存存储的最大周期，超过这个时间缓存被认为过期。与`Expires`相反，时间是相对于请求的时间。
+设置缓存存储的最大周期，超过这个时间缓存被认为过期。如果设置为0，那么缓存会立即过期。
+与`Expires`相反，时间是相对于请求的时间。
 ###### s-maxage=\<seconds>
 覆盖`max-age`或者`Expires`头，但是仅适用于共享缓存(比如各个代理)，私有缓存会忽略它。
 ###### max-stale\[=\<seconds>]
@@ -55,3 +56,5 @@ Cache-control: s-maxage=<seconds>
 不得对资源进行转换或转变。`Content-Encoding`、`Content-Range`、`Content-Type`等 HTTP 头不能由代理修改。例如，非透明代理或者如[Google's Light Mode](https://support.google.com/webmasters/answer/6211428?hl=en)可能对图像格式进行转换，以便节省缓存空间或者减少缓慢链路上的流量。`no-transform`指令不允许这样做。
 ###### only-if-cached
 表明客户端只接受已缓存的响应，并且不向原始服务器检查是否有更新的拷贝。
+###### immutable
+对长时间不会更改的资源使用该指令。该指令明确指示资源不需要重新验证，因为资源不会改变。
