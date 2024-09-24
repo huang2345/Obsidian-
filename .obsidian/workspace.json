@@ -8,30 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0000c0495e9125bf",
+            "id": "ffc6fe54c2d8f1c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/基础/访问修饰符.md",
+                "file": "java/基础/类与对象/反射.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f9c5aec75af4e665",
+            "id": "22024e8d9fe9edf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/基础/基础/基础类型.md",
+                "file": "java/基础/工具类/java/lang/Class.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "52886f02f7a66cc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/基础/工具类/java/lang/reflect/Modifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d6f42d5d7e835060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/基础/工具类/java/lang/reflect/Field.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a333786e9eea39ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "java/基础/工具类/java/lang/reflect/Constructor.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/基础/访问修饰符.md",
+                "file": "java/基础/工具类/java/lang/Class.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "java/基础/访问修饰符.md",
+                "file": "java/基础/工具类/java/lang/Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,12 +174,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "java/基础/访问修饰符.md"
+                "file": "java/基础/工具类/java/lang/Class.md"
               }
             }
           },
           {
-            "id": "efeab6689595797c",
+            "id": "3b257ae99ac85808",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -167,44 +204,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0000c0495e9125bf",
+  "active": "22024e8d9fe9edf4",
   "lastOpenFiles": [
+    "java/基础/工具类/java/lang/reflect/Modifier.md",
+    "java/基础/工具类/java/lang/reflect/RecordComponent.md",
+    "java/基础/工具类/java/lang/reflect/Method.md",
+    "java/基础/工具类/java/lang/reflect/Constructor.md",
+    "java/基础/工具类/java/lang/reflect/Field.md",
+    "java/基础/类与对象/反射.md",
+    "java/基础/工具类/java/lang/Throwable.md",
+    "java/基础/工具类/java/lang/Class.md",
+    "java/基础/工具类/java/lang/reflect",
     "java/基础/类与对象/继承.md",
-    "java/基础/类与对象/类.md",
-    "java/基础/文档注释.md",
-    "java/基础/包与import.md",
-    "java/基础/基础语句/static关键字.md",
-    "java/基础/基础语句/if与switch.md",
-    "java/基础/工具类/java.util/random.RandomGenerator.md",
-    "java/基础/工具类/java.util/Random.md",
-    "java/基础/工具类/java.util/Objects.md",
-    "git/基础终端命令.md",
-    "conflict-files-obsidian-git.md",
+    "java/基础/工具类/java/util/Objects.md",
     "java/基础/访问修饰符.md",
-    "java/基础/工具类/java.util/Arrays.md",
-    "C/io流.md",
-    "C/malloc与calloc和free的简单使用.md",
-    "C/位/位.md",
-    "C/位/位字段.md",
-    "C/C预处理器和C库/if类指令.md",
-    "C/C预处理器和C库/内联函数(C99)与_Noreturn(c11).md",
-    "java/基础/基础/变量与常量.md",
-    "java/基础/工具类/java.time.LocalDate.md",
+    "java/基础/类与对象/Object.md",
+    "java/基础/类与对象/类.md",
+    "java/基础/工具类/java/lang/Enum.md",
+    "java/基础/基础/枚举类.md",
+    "java/基础/基础/变参.md",
     "java/基础/基础/数组.md",
-    "java/基础/类与对象/概述.md",
-    "java/基础/类与对象",
-    "java/基础/工具类/java.util",
-    "java/基础/工具类/java.Math.md",
-    "java/基础/工具类",
-    "java/基础/基础语句/循环.md",
+    "java/基础/基础/字符串.md",
+    "java/基础/基础/运算符.md",
+    "java/基础/基础/变量与常量.md",
     "java/基础/基础/基础类型.md",
+    "java/基础/工具类/java/text.NumberFormat.md",
+    "java/基础/工具类/java/lang/Integer.md",
+    "java/基础/工具类/java/time.LocalDate.md",
+    "java/基础/工具类/java/Math.md",
+    "java/基础/工具类/java",
+    "java/基础/类与对象/对象包装器.md",
+    "java/基础/工具类/java/lang",
+    "java/基础/类与对象",
+    "java/基础/工具类/java/util",
+    "java/基础/工具类",
     "java/基础/输入与输出",
     "java/基础/基础",
     "java/基础/运算符",
     "java/基础/类与对象",
-    "java/基础/基础语句",
-    "java/基础/基本类型",
-    "java/基础",
     "Web/HTTP/HTTP基础/Pasted image 20240915235156.png",
     "images/http-response.svg",
     "images/http-request.svg",
