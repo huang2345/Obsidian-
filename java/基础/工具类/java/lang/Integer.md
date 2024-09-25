@@ -11,3 +11,5 @@
 #### Integer valueOf(String s)
 #### Integer valueOf(String s,int radix)
 一个包装器版本的parseInt
+#### int compare(double x,double y)
+如果x<y返回负整数；相等返回0；x>y返回正整数

@@ -11,3 +11,6 @@
 数组中的Class对象表示参数的类型
 #### Class getReturnType()
 表示返回类型的Class对象。
+#### public Object invoke(Object implicitParameter,Object\[] explicitParameters)
+调用该Method对象描述的方法。`impliciParameter`是具体的实例对象，第二个参数为函数的参数列表。
+该方法对于基础类型将以包装器来返回。如果调用的是静态方法，第一个参数为`null`
