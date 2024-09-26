@@ -13,6 +13,7 @@ span.cm-highlight
 {
     color: rgb(0,0,255);
 }
+/* 编辑视图 */
 .HyperMD-header-2{
     color: rgb(225, 138, 252);
 }
@@ -28,6 +29,23 @@ span.cm-highlight
 .HyperMD-header-6{
     color: rgb(70, 132, 100);
 }
+/* 阅读视图 */
+h2[dir="auto"]{
+    color: rgb(225, 138, 252);
+}
+h3[dir="auto"]{
+    color: rgb(122, 19, 122);
+}
+h4[dir="auto"]{
+    color: rgb(7, 101, 255);
+}
+h5[dir="auto"]{
+    color: rgb(43, 168, 140);
+}
+h6[dir="auto"]{
+    color: rgb(70, 132, 100);
+}
+
 
 
 /* 段落首行缩进 */

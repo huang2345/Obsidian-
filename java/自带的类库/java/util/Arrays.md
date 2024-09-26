@@ -7,6 +7,8 @@
 拷贝数组a中对应范围的元素
 #### void sort(Object\[] a)
 对数组a进行快排，要求数组元素的类型必须属于实现了`Comparable`接口的类
+#### void sort(Object\[] a,Comparator c)
+通过实现比较器对象的实例c进行快排。
 #### void sort(xxx\[] a)
 对数组a进行快排
 #### int binarySearch(xxx\[] a,?int start,?int end,xxx v)
