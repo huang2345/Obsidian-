@@ -18,3 +18,7 @@
 返回第一个与指定元素相等的元素在列表中的位置。如果没有匹配的，返回-1
 #### lastIndexOf(Object element)
 与indexOf相反
+#### List\<E> subList(int firstIncluded,int firstExcluded)
+返回给定索引范围内所有元素的列表视图
+#### defalut void sort(Comparable\<? superT> comparator)
+使用指定比较器对列表排序

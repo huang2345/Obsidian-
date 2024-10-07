@@ -14,3 +14,5 @@
 如果Map中有该值，返回true
 #### default void forEach(BiConsumer\<? super K,? super V> action)
 对所有键值对使用该动作
+#### default V merge(K key,V value,BiFunction\<? super V,? super V,? extends V> remappingFunction)
+如果key与一个非null值v关联，将v与value作为参数传给remappingFunction，如果函数返回值为null，则删除这个键；如果返回值正常，将key与返回值关联。
