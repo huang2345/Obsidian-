@@ -1,67 +1,58 @@
 @charset 'utf-8';
 /* 改变高光的字体颜色 */
-span.cm-highlight
-{
-    background-color: rgba(255,255,255,1) !important;
+span.cm-highlight {
+    background-color: rgba(255, 255, 255, 1) !important;
     color: red !important;
 }
 /* 改变h1~h6标题和title标题颜色 */
-.HyperMD-header{
-    --header-blue-rgb-color: 255
+.HyperMD-header {
+    --header-blue-rgb-color: 255;
 }
-.HyperMD-header-1,div[class^='inline-title']
-{
-    color: rgb(0,0,255);
+.HyperMD-header-1,
+div[class^='inline-title'] {
+    color: rgb(0, 0, 255);
 }
 /* 编辑视图 */
-.HyperMD-header-2{
+.HyperMD-header-2 {
     color: rgb(225, 138, 252);
 }
-.HyperMD-header-3{
+.HyperMD-header-3 {
     color: rgb(122, 19, 122);
 }
-.HyperMD-header-4{
+.HyperMD-header-4 {
     color: rgb(7, 101, 255);
 }
-.HyperMD-header-5{
+.HyperMD-header-5 {
     color: rgb(43, 168, 140);
 }
-.HyperMD-header-6{
+.HyperMD-header-6 {
     color: rgb(70, 132, 100);
 }
 /* 阅读视图 */
-h2[dir="auto"]{
+h2[dir='auto'] {
     color: rgb(225, 138, 252);
 }
-h3[dir="auto"]{
+h3[dir='auto'] {
     color: rgb(122, 19, 122);
 }
-h4[dir="auto"]{
+h4[dir='auto'] {
     color: rgb(7, 101, 255);
 }
-h5[dir="auto"]{
+h5[dir='auto'] {
     color: rgb(43, 168, 140);
 }
-h6[dir="auto"]{
+h6[dir='auto'] {
     color: rgb(70, 132, 100);
 }
 
-
-
 /* 段落首行缩进 */
 div.cm-line:not(.HyperMD-header) {
-	text-indent: 2em;
+    text-indent: 2em;
 }
 .markdown-preview-view div p {
-	text-indent: 2em;
+    text-indent: 2em;
 }
-
-/* 给段落下方的无序列表添加缩进 */
-.cm-line:not(.HyperMD-header):not(.HyperMD-list-line) + .HyperMD-list-line[dir='ltr']
-{
-    text-indent: 0.7em !important;
-}
-.cm-line:not(.HyperMD-header):not(.HyperMD-list-line) + .HyperMD-list-line[dir='ltr'] ~ .HyperMD-list-line
-{
-    text-indent: 0.7em !important;
+.HyperMD-quote {
+    text-indent: 1.35em !important;
+    padding-inline-start: 0 !important;
 }
