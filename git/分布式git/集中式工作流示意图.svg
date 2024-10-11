@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 集中式工作流示意图.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="8.26772in" height="5.82677in" viewBox="0 0 595.276 419.528" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st4">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#4672c4;stroke:#c7c8c8;stroke-width:0.25}
+		.st2 {fill:#feffff;font-family:黑体;font-size:0.833336em}
+		.st3 {fill:#3c63ac;stroke:#30518f;stroke-width:0.75}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>页-1</title>
+		<g id="shape1-1" transform="translate(85.0394,-103.748)">
+			<title>矩形</title>
+			<desc>开发者</desc>
+			<rect x="0" y="334.488" width="113.386" height="85.0394" class="st1"/>
+			<text x="41.69" y="380.34" class="st2">开发者</text>		</g>
+		<g id="shape2-4" transform="translate(244.724,-103.748)">
+			<title>矩形.2</title>
+			<desc>开发者</desc>
+			<rect x="0" y="334.488" width="113.386" height="85.0394" class="st1"/>
+			<text x="41.69" y="380.34" class="st2">开发者</text>		</g>
+		<g id="shape3-7" transform="translate(404.409,-103.748)">
+			<title>矩形.3</title>
+			<desc>开发者</desc>
+			<rect x="0" y="334.488" width="113.386" height="85.0394" class="st1"/>
+			<text x="41.69" y="380.34" class="st2">开发者</text>		</g>
+		<g id="shape4-10" transform="translate(218.079,-263.055)">
+			<title>矩形.4</title>
+			<desc>仓库</desc>
+			<rect x="0" y="362.835" width="166.677" height="56.6929" class="st1"/>
+			<text x="73.34" y="394.51" class="st2">仓库</text>		</g>
+		<g id="shape5-13" transform="translate(-32.796,-144.518) rotate(-24.9426)">
+			<title>块状双箭头</title>
+			<path d="M5.67 410.46 L5.67 408.19 L0 413.86 L5.67 419.53 L5.67 417.26 L170.44 417.26 L170.44 419.53 L176.11 413.86 L170.44
+						 408.19 L170.44 410.46 L5.67 410.46 Z" class="st3"/>
+		</g>
+		<g id="shape6-15" transform="translate(-112.441,230.74) rotate(-90)">
+			<title>块状双箭头.6</title>
+			<path d="M5.67 410.46 L5.67 408.19 L0 413.86 L5.67 419.53 L5.67 417.26 L68.6 417.26 L68.6 419.53 L74.27 413.86 L68.6
+						 408.19 L68.6 410.46 L5.67 410.46 Z" class="st3"/>
+		</g>
+		<g id="shape7-17" transform="translate(475.946,-218.786) rotate(24.9426)">
+			<title>块状双箭头.7</title>
+			<path d="M5.67 410.46 L5.67 408.19 L0 413.86 L5.67 419.53 L5.67 417.26 L170.44 417.26 L170.44 419.53 L176.11 413.86 L170.44
+						 408.19 L170.44 410.46 L5.67 410.46 Z" class="st3"/>
+		</g>
+	</g>
+</svg>
