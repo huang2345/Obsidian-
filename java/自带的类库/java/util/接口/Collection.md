@@ -14,6 +14,9 @@
 返回这个集合中的对象的数组
 #### \<T> T\[] toArray(IntFunction\<T\[]> generator)
 返回这个集合中的对象的数组。该数组实用generator构造，这通常是一个构造器引用
+#### default Stream\<E> stream()
+#### default Stream\<E> parallelStream()
+产生当前集合中所有元素的顺序流或并行流。
 ### 增删
 #### boolean add(E element)
 添加

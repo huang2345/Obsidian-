@@ -23,3 +23,5 @@
 equals无法应对多维数组时每一层级的元素，该方法专对于多维数组使用。
 #### \<E> List\<E> asList(E... array)
 返回数组中元素的列表视图。
+#### \<T> Stream\<T> stream(T\[] array,int start,int end)
+产生一个流，其元素由数组中指定范围内的元素构成
