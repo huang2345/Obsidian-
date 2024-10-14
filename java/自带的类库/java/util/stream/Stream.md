@@ -24,6 +24,17 @@
 产生一个流，对当前流进行排序。第一个方法要求流的元素都是实现了`Comparable`接口的实例。
 #### Stream\<T> peek(Consumer\<? super T> action)
 产生一个流，它与当前流中的元素相同。但是在实际获取元素时，会将其传递给`action`函数。很适合用来调试。
+### 获取结果
+#### void forEach(Consumer\<? super T> action)
+用`action`方法去遍历所有元素。
+>在并行流上，该方法会以任意顺序遍历所有元素。如果想要按照流的顺序遍历，可以调用`forEachOrdered`。但是，使用该方法会丧失并行处理的优势
+#### Object\[] toArray()
+#### \<A> A\[] toArray(IntFunction\<A\[]> generator)
+产生一个对象数组。默认为`Object`类型，或者在传递了构造器引用`A[]::new`时，返回A类型的数组
+#### List\<T> toList()
+产生一个由流中所有元素构成的列表
+#### \<R,A> R collect(Collector\<? super T,A,R> collector)
+使用给定的收集器来收集流中的元素。收集器可以使用`Collectors`类的工厂方法
 ### 约简操作
 #### Optional\<T> max(Comparator\<? super T> comparator)
 #### Optional\<T> min(Comparator\<? super T> comparator)
