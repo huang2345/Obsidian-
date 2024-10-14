@@ -17,6 +17,7 @@
 #### default Stream\<E> stream()
 #### default Stream\<E> parallelStream()
 产生当前集合中所有元素的顺序流或并行流。
+
 ### 增删
 #### boolean add(E element)
 添加
