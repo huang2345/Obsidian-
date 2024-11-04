@@ -35,6 +35,16 @@
 #### void delete(Path path)
 #### boolean deleteIfExists(Path path)
 删除指定文件或空目录。`delete`方法在文件或目录不存在的情况下抛出异常，而`deleteIfExists`会返回`false`
+### 遍历目录
+#### Stream\<Path> list(Path path)
+只遍历当前目录下的路径
+#### Stream\<Path> walk(Path path,FileVisitOption... options)
+##### Stream\<Path> walk(Path path,int depth,FileVisitOption... options)
+遍历所有子目录的路径。`depth`设置子目录的树的深度。`options`只能选择`FOLLOW_LINKS`选项，即跟踪符号链接。
+#### DirectoryStream\<Path> newDirectoryStream(Path path,?String glob)
+获取指定路径的可以遍历所有文件和目录的迭代器。
+#### Path walkFileTree(Path start,FileVisitor\<? super Path> visitor)
+遍历指定路径，并将`visitor`访问器应用。
 
 ### 其他
 #### long mismatch(Path path1,Path path2)

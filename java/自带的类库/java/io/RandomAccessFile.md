@@ -18,3 +18,5 @@ mode:rwd读写，只更新文件
 将文件指针设置到距文件开头`pos`个字节处。
 #### long length()
 返回文件的大小(字节单位)
+#### FileChannel getChannel()
+返回用于访问这个文件的通道。
